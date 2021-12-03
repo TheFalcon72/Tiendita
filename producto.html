@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-with,initial-scale=1.0">
+        <title>Tiendita</title>
+
+        <!--Librerias-->
+        <!--CNDs-->
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        
+        <!--Owl Carousel-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+
+        <!--Iconos-->
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--Estilos Perosnales-->
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+
+    <body>
+        <!--Encabesado-->
+        <header id="encabezado">
+            <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+                <div class="font-rale font-size-14">
+                    <a href="#" class="px-3 border-right border-reft text-dark">Iniciar Sesion</a>
+                </div>
+            </div>
+
+            <!--Barra de Navegacion-->
+            <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Tiendita</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav m-auto font-roboto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Categorias <i class="fas fa-chevron-down"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Productos <i class="fas fa-chevron-down"></i></a>
+                      </li>
+                    </ul>
+                    <!--Carrito-->
+                    <form action="#">
+                      <a href="#" class="py-2 rounded-pill color-primary-bg">
+                        <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                      </a>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <!--Contenido-->
+        <main id="cuerpazo">
+
+            <!--Producto-->
+            <section id="producto" class="py-3">
+                <div class="container">
+                    <div class="row">
+                        <!--Lado Izquierdo-->
+                        <div class="col-sm-6">
+                            <!--Imagen de Producto-->
+                            <img src="./assets/productos/pc2.png" alt="producto" class="img-fluid">
+                            <div class="form-row pt-4 font-size-16 font-timmana">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-success form-control">Comprar</button>
+                                </div>
+                                <div class="col">
+                                    <button type="submit" class="btn btn-warning form-control">Agregar a Carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Lado Derecho-->
+                        <div class="col-sm-6 py-5">
+                            <!--Nombre del Producto-->
+                            <h5 class="font-timmana font-size-20">PC GAMER TELIOS IX</h5>
+                            <!--Creado/Vendedor-->
+                            <small>by Spartan Geek</small>
+                            <!--Rating-->
+                            <div class="d-flex">
+                                <div class="rating text-warning font-size-12">
+                                    <span><i class="fas fa-cat"></i></span>
+                                    <span><i class="fas fa-cat"></i></span>
+                                    <span><i class="fas fa-cat"></i></span>
+                                    <span><i class="fas fa-cat"></i></span>
+                                    <span><i class="far fa-circle"></i></span>
+                                </div>
+                                <br>
+                            </div>
+                            <hr class="m-0">
+                            <div class="d-flex">
+                                <!--Precio-->
+                                <table class="my-1">
+                                    <tr class="font-raleway font-size-14">
+                                        <td>Precio:</td>
+                                        <td class="font-size-20">$<span>105,010</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <hr class="m-0">
+
+                            <!--Detalles de Orden-->
+                            <div id="detalles-orden" class="font-raleway d-flex flex-column text-dark">
+                                <small>Vendido por <a href="#">Spartan Geek</a></small>
+                            </div>
+
+                            <!--Cantidad-->
+                            <div class="col-6">
+                                <!-- product qty section -->  
+                                  <div class="qty d-flex">
+                                      <h6 class="font-roboto">Qty</h6>
+                                      <div class="px-4 d-flex font-rale">
+                                          <button class="qty-up border bg-light" data-id="pro1"><i class="fas fa-angle-up"></i></button>
+                                          <input type="text" data-id="pro1" class="qty_input border px-2 w-50 bg-light" disabled value="1" placeholder="1">
+                                          <button data-id="pro1" class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
+                                      </div>
+                                  </div>
+                                 <!-- !product qty section -->  
+                              </div>
+                        </div>
+                        <!--Descripcion-->
+                        <div class="col-12">
+                            <hr>
+                            <h6 class="font-timmana">Descripcion del Producto</h6>
+                            <hr>
+                            <p class="font-raleway font-size-14">La PC Gamer Telios IX jamás te dejará limitado para realizar desafíos de alto desempeño, prepara a tu tropa para jugar títulos de última generación con el máximo poder gráfico. Una computadora capaz de realizar stream en plataformas como Youtube y Twicht a nivel profesional. Optimizada a tu presupuesto, personalizable y actualizable a futuro. Aniquila a tus rivales. Si lo deseas, podrás personalizarla al pedirla.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!--Mas Vendido-->
+            <section id="mejores-ventas">
+                <div class="container py-5">
+                <h4 class="font-timmana font-size-20">Mas Vendido</h4>
+                <hr>
+                <!--Carrusel de lo mas vendido-->
+                <div class="owl-carousel owl-theme">
+                    <div class="item py-2">
+                    <div class="product font-roboto">
+                        <!--Imagen de Producto-->
+                        <a href="#"><img src="./assets/productos/pc1.png" alt="Producto 1"></a>
+                        <div class="text-center">
+                        <!--Nombre de Producto-->
+                        <h6>PC GAMER STELIOS 80I</h6>
+                        <!--Rating en Nekooooooos!!!!!-->
+                        <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="far fa-circle"></i></span>
+                        </div>
+                        <!--Precio-->
+                        <div class="price py-2">
+                            <span>$53,230</span>
+                        </div>
+                        <button type="submit" class="btn btn-success font-size-12">Agregar a Carrito</button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item py-2">
+                    <div class="product font-roboto">
+                        <!--Imagen de Producto-->
+                        <a href="#"><img src="./assets/productos/pc2.png" alt="Producto 1"></a>
+                        <div class="text-center">
+                        <!--Nombre de Producto-->
+                        <h6>PC GAMER TELIOS IX</h6>
+                        <!--Rating en Nekooooooos!!!!!-->
+                        <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="far fa-circle"></i></span>
+                        </div>
+                        <!--Precio-->
+                        <div class="price py-2">
+                            <span>$105,010</span>
+                        </div>
+                        <button type="submit" class="btn btn-success font-size-12">Agregar a Carrito</button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item py-2">
+                    <div class="product font-roboto">
+                        <!--Imagen de Producto-->
+                        <a href="#"><img src="./assets/productos/pc3.png" alt="Producto 1"></a>
+                        <div class="text-center">
+                        <!--Nombre de Producto-->
+                        <h6>PC GAMER GLADIUS 60I X</h6>
+                        <!--Rating en Nekooooooos!!!!!-->
+                        <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="far fa-circle"></i></span>
+                        </div>
+                        <!--Precio-->
+                        <div class="price py-2">
+                            <span>$29,988</span>
+                        </div>
+                        <button type="submit" class="btn btn-success font-size-12">Agregar a Carrito</button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item py-2">
+                    <div class="product font-roboto">
+                        <!--Imagen de Producto-->
+                        <a href="#"><img src="./assets/productos/pc4.png" alt="Producto 1"></a>
+                        <div class="text-center">
+                        <!--Nombre de Producto-->
+                        <h6>PC GAMER THANOS 80I X</h6>
+                        <!--Rating en Nekooooooos!!!!!-->
+                        <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="far fa-circle"></i></span>
+                        </div>
+                        <!--Precio-->
+                        <div class="price py-2">
+                            <span>$78,750</span>
+                        </div>
+                        <button type="submit" class="btn btn-success font-size-12">Agregar a Carrito</button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item py-2">
+                    <div class="product font-roboto">
+                        <!--Imagen de Producto-->
+                        <a href="#"><img src="./assets/productos/pc5.png" alt="Producto 1"></a>
+                        <div class="text-center">
+                        <!--Nombre de Producto-->
+                        <h6>PC GAMER TELIOS ZX</h6>
+                        <!--Rating en Nekooooooos!!!!!-->
+                        <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="far fa-circle"></i></span>
+                        </div>
+                        <!--Precio-->
+                        <div class="price py-2">
+                            <span>$131,600</span>
+                        </div>
+                        <button type="submit" class="btn btn-success font-size-12">Agregar a Carrito</button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item py-2">
+                    <div class="product font-roboto">
+                        <!--Imagen de Producto-->
+                        <a href="#"><img src="./assets/productos/audifonos.png" alt="Producto 1"></a>
+                        <div class="text-center">
+                        <!--Nombre de Producto-->
+                        <h6>AUDÍFONOS GAMER COUGAR PHONTUM ESSENTIAL ROSA</h6>
+                        <!--Rating en Nekooooooos!!!!!-->
+                        <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="far fa-circle"></i></span>
+                        </div>
+                        <!--Precio-->
+                        <div class="price py-2">
+                            <span>$849</span>
+                        </div>
+                        <button type="submit" class="btn btn-success font-size-12">Agregar a Carrito</button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item py-2">
+                    <div class="product font-roboto">
+                        <!--Imagen de Producto-->
+                        <a href="#"><img src="./assets/productos/mouse.png" alt="Producto 1"></a>
+                        <div class="text-center">
+                        <!--Nombre de Producto-->
+                        <h6>MOUSE GAMER COUGAR MINOS XT RGB 4000DPI ROSA</h6>
+                        <!--Rating en Nekooooooos!!!!!-->
+                        <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="fas fa-cat"></i></span>
+                            <span><i class="far fa-circle"></i></span>
+                        </div>
+                        <!--Precio-->
+                        <div class="price py-2">
+                            <span>$599</span>
+                        </div>
+                        <button type="submit" class="btn btn-success font-size-12">Agregar a Carrito</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </main>
+
+        <!--Pie de Pagina-->
+        <footer id="pie" class="bg-dark text-white py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-7">
+                <h4 class="font-roboto font-size-20">Tiendita</h4>
+                <p class="font-size-14 font-raleway text-white-50">Dany e imelda aqui pueden poner u parrafo a ver que se les ocurre llenar aqui los TKM - Sergio</p>
+              </div>
+              <div class="col-lg-2 col-7">
+                <h4 class="font-roboto font-size-20">Informacion</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-raleway font-size-14 text-white-50 pb-1">Aceca de Nosotras</a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-7">
+                <h4 class="font-roboto font-size-20">Cuenta</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-raleway font-size-14 text-white-50 pb-1">Mi Cuenta</a>
+                  <a href="#" class="font-raleway font-size-14 text-white-50 pb-1">Historial</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </footer>
+        <!--Scripts-->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+        <!--Owl Carousel-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+
+        <script src="./index.js"></script>
+    </body>
+
+</html>
