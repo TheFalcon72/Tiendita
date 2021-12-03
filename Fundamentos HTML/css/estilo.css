@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&family=Timmana&display=swap");
+/*Hoja Estilo SASS*/
+/*Clases Globales*/
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/*Tipo de clases de Tipografia*/
+.font-timmana {
+  font-family: "Timmana", cursive;
+}
+
+.font-roboto {
+  font-family: "Roboto", cursive;
+}
+
+.font-raleway {
+  font-family: "Raleway", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/*Colores*/
+.color-primary {
+  color: #FFDEE1;
+}
+
+.color-primary-bg {
+  background: #FFDEE1;
+}
+
+.color-second {
+  color: #B6DCB6;
+}
+
+.color-second-bg {
+  background: #B6DCB6;
+}
+
+/*Mas Vendido*/
+#mejores-ventas .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#mejores-ventas .owl-carousel .item .product img {
+  transition: 0.5s ease;
+}
+#mejores-ventas .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#mejores-ventas .owl-carousel .owl-nav button {
+  position: relative;
+  top: 30%;
+  outline: none;
+}
+#mejores-ventas .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#mejores-ventas .owl-carousel .owl-nav button.owl-next span,
+#mejores-ventas .owl-carousel .owl-nav button.owl-prev span {
+  font-size: 35px;
+  color: #B6DCB6;
+  padding: 0 1rem;
+}
+#mejores-ventas .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+#mejores-ventas .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#mejores-ventas .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+/*# sourceMappingURL=estilo.css.map */
