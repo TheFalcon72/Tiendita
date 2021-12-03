@@ -24,6 +24,12 @@
         <link rel="stylesheet" href="Estilo.css">
 
         
+        <?php
+          //Conectrar a Base de Datos
+          require ('ConexionBD.php');
+        ?>
+
+        
     </head>
 
     <body>
