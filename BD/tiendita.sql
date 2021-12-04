@@ -54,19 +54,21 @@ CREATE TABLE `Producto` (
 --
 
 INSERT INTO `Producto` (`ProductoID`, `ProductoMarca`, `ProductoNombre`, `ProductoPrecio`, `ProductoImagen`, `ProductoRegistro`) VALUES
-(1, 'Samsung', 'Samsung Galaxy 10', 152.00, './assets/products/1.png', '2020-03-28 11:08:57'), -- NOW()
-(2, 'Redmi', 'Redmi Note 7', 122.00, './assets/products/2.png', '2020-03-28 11:08:57'),
-(3, 'Redmi', 'Redmi Note 6', 122.00, './assets/products/3.png', '2020-03-28 11:08:57'),
-(4, 'Redmi', 'Redmi Note 5', 122.00, './assets/products/4.png', '2020-03-28 11:08:57'),
-(5, 'Redmi', 'Redmi Note 4', 122.00, './assets/products/5.png', '2020-03-28 11:08:57'),
-(6, 'Redmi', 'Redmi Note 8', 122.00, './assets/products/6.png', '2020-03-28 11:08:57'),
-(7, 'Redmi', 'Redmi Note 9', 122.00, './assets/products/8.png', '2020-03-28 11:08:57'),
-(8, 'Redmi', 'Redmi Note', 122.00, './assets/products/10.png', '2020-03-28 11:08:57'),
-(9, 'Samsung', 'Samsung Galaxy S6', 152.00, './assets/products/11.png', '2020-03-28 11:08:57'),
-(10, 'Samsung', 'Samsung Galaxy S7', 152.00, './assets/products/12.png', '2020-03-28 11:08:57'),
-(11, 'Apple', 'Apple iPhone 5', 152.00, './assets/products/13.png', '2020-03-28 11:08:57'),
-(12, 'Apple', 'Apple iPhone 6', 152.00, './assets/products/14.png', '2020-03-28 11:08:57'),
-(13, 'Apple', 'Apple iPhone 7', 152.00, './assets/products/15.png', '2020-03-28 11:08:57');
+(1, 'Stelios', 'PC GAMER STELIOS 80I', 53230.00, './assets/productos/1.png', '2020-03-28 11:08:57'), -- NOW()
+(2, 'Telios', 'PC GAMER TELIOS IX', 105010.00, './assets/productos/2.png', '2020-03-28 11:08:57'),
+(3, 'Agis', 'PC GAMER AGIS 70Z', 17488.00, './assets/productos/3.png', '2020-03-28 11:08:57'),
+(4, 'Thanos', 'PC GAMER THANOS 80I X', 78750.00, './assets/productos/4.png', '2020-03-28 11:08:57'),
+(5, 'Thanos', 'PC GAMER KING THANOS', 91220.00, './assets/productos/5.png', '2020-03-28 11:08:57'),
+(6, 'Cougar', 'AUDÍFONOS GAMER COUGAR PHONTUM ESSENTIAL ROSA', 849.00, './assets/productos/6.png', '2020-03-28 11:08:57'),
+(7, 'Cougar', 'MOUSE GAMER COUGAR MINOS XT RGB 4000DPI ROSA', 599.00, './assets/productos/7.png', '2020-03-28 11:08:57'),
+(8, 'Desconosido', 'Puerta Abatible Inteligente Pequeña Para Mascotas', 1030.00, './assets/productos/8.png', '2020-03-28 11:08:57'),
+(9, 'Calling Music', 'Gafas Inteligentes Inalámbricas Bluetooth5.0', 950.00, './assets/productos/9.png', '2020-03-28 11:08:57'),
+(10, 'Desconosido', 'Receptor Inalámbrico Wifi Hdmi Dispositivo De Tv Streaming', 152.00, './assets/productos/10.png', '2020-03-28 11:08:57'),
+(11, 'Desconosido', 'Expresion LED Alarm Clock', 1200.00, './assets/productos/11.png', '2020-03-28 11:08:57'),
+(12, 'bowAI', 'OLOEY', 2000.00, './assets/productos/12.png', '2020-03-28 11:08:57'),
+(13, 'Lenovo', 'Lenovo Smart Clock Essential Con Asistente De Voz Google', 1140.00, './assets/productos/13.png', '2020-03-28 11:08:57'),
+(14, 'NACEB', 'KIT GAMER NACEB CYBORG PLATA (ESPAÑOL)', 580.00, './assets/productos/14.png', '2020-03-28 11:08:57'),
+(15, 'Eagle Warrior', 'AUDÍFONOS GAMER EAGLE WARRIOR QUIMERA RGB', 399.00, './assets/productos/15.png', '2020-03-28 11:08:57');
 
 -- --------------------------------------------------------
 

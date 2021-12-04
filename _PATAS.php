@@ -6,12 +6,14 @@
             <div class="row">
               <div class="col-lg-3 col-7">
                 <h4 class="font-roboto font-size-20">Tiendita</h4>
-                <p class="font-size-14 font-raleway text-white-50">Dany e imelda aqui pueden poner u parrafo a ver que se les ocurre llenar aqui los TKM - Sergio</p>
+                <p class="font-size-14 font-raleway text-white-50">¡Recibe las mejores promociones y noticias que tenemos para ti!</p>
               </div>
               <div class="col-lg-2 col-7">
                 <h4 class="font-roboto font-size-20">Informacion</h4>
                 <div class="d-flex flex-column flex-wrap">
                   <a href="#" class="font-raleway font-size-14 text-white-50 pb-1">Aceca de Nosotras</a>
+                  <a href="#" class="font-raleway font-size-14 text-white-50 pb-1">Elmundo@gamil.com</a>
+                  <a href="#" class="font-raleway font-size-14 text-white-50 pb-1">Contactos :8342745891</a>
                 </div>
               </div>
               <div class="col-lg-2 col-7">
