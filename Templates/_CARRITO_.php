@@ -10,7 +10,7 @@
                     <!--Producto en Carrito-->
                     <div class="row border-top py-3 mt-3">
                       <div class="col-sm-2">
-                        <img src="./assets/productos/audifonos.png" style="height: 120px;" alt="carrito">
+                        <img src="./assets/productos/6.png" style="height: 120px;" alt="carrito">
                       </div>
                       <div class="col-sm-8">
                         <h5 class="font-roboto font-size-20">AUDÍFONOS GAMER COUGAR PHONTUM ESSENTIAL ROSA</h5>
@@ -50,7 +50,7 @@
                     <!--Producto en Carrito-->
                     <div class="row border-top py-3 mt-3">
                       <div class="col-sm-2">
-                        <img src="./assets/productos/pc3.png" style="height: 120px;" alt="carrito">
+                        <img src="./assets/productos/3.png" style="height: 120px;" alt="carrito">
                       </div>
                       <div class="col-sm-8">
                         <h5 class="font-roboto font-size-20">PC GAMER GLADIUS 60I X</h5>
